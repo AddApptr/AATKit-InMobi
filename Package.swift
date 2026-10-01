@@ -20,7 +20,7 @@ let package = Package(
     ],
     dependencies: [
         // Mark: Dependencies Begin
-        .package(url: "https://github.com/AddApptr/AATKit.git", exact: "3.18.0-beta3"),
+        .package(url: "https://github.com/AddApptr/AATKit.git", exact: "3.18.0"),
         // Mark: Dependencies End
     ],
     // Mark: Targets
@@ -38,13 +38,13 @@ let package = Package(
         // Mark: Binary Targets
         .binaryTarget(
             name: "AATInMobiAdapter",
-            url: "https://gravite-sdk-releases.s3.eu-central-1.amazonaws.com/aatkit/ios/spm/3.18.0-beta3/AATInMobiAdapter.zip",
-            checksum: "6972e30bfd000a31931ce51180a4123245bfe43916b3de8cdedfae12f4259b54"
+            url: "https://gravite-sdk-releases.s3.eu-central-1.amazonaws.com/aatkit/ios/spm/3.18.0/AATInMobiAdapter.zip",
+            checksum: "eb4c5e4d6ca6ca51ea5719d9f22a7299d5d7e1485a84273ac56394779f91c0b9"
         ),
         .binaryTarget(
             name: "AATInMobiSDK",
-            url: "https://gravite-sdk-releases.s3.eu-central-1.amazonaws.com/aatkit/ios/spm/3.18.0-beta3/InMobiSDK.zip",
-            checksum: "8e036e4e8749814e82f235dc513cc7eab300a083aac922a8b5d8f4fe0cc45352"
+            url: "https://gravite-sdk-releases.s3.eu-central-1.amazonaws.com/aatkit/ios/spm/3.18.0/InMobiSDK.zip",
+            checksum: "19c90c71ae9d02ecab0e0999c5238191eaa8271d6d933ef7b2811a8adbe7c75b"
         ),
     ]
 )
